@@ -124,7 +124,6 @@ html.is-ready .overlay > * {
 }
 
 html.is-ready .card { transition-delay: 0.12s; }
-html.is-ready .bottombar { transition-delay: 0.3s; }
 
 /* ---------- card ---------- */
 
@@ -283,19 +282,6 @@ html.ascii-ready .ascii__fallback {
   outline-offset: 4px;
 }
 
-/* ---------- bottom ---------- */
-
-.bottombar {
-  position: absolute;
-  left: clamp(18px, 3vw, 40px);
-  bottom: clamp(18px, 3vw, 34px);
-  font-family: var(--font-mono);
-  font-size: 9px;
-  letter-spacing: 0.12em;
-  text-transform: uppercase;
-  color: var(--muted-2);
-}
-
 /* ---------- responsive ---------- */
 
 @media (max-width: 720px) {
@@ -312,10 +298,6 @@ html.ascii-ready .ascii__fallback {
   }
   .ascii__fallback {
     font-size: clamp(2.6rem, 14vw, 4rem);
-  }
-  .bottombar {
-    left: 50%;
-    transform: translateX(-50%);
   }
 }
 
