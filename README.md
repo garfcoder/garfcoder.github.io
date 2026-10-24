@@ -49,7 +49,7 @@ assets/img/favicon.svg
 
 ## Публикация
 
-Сайт: <https://dmcrtr24.github.io> — GitHub Pages, ветка `main`, корень репозитория.
+Сайт: <https://garfcoder.github.io> — GitHub Pages (организация `garfcoder`), ветка `main`, корень репозитория.
 
 ```bash
 git push origin main   # Pages пересобирается автоматически
